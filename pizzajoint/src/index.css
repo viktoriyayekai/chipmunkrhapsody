@@ -18,8 +18,8 @@ body, ul, h1, h2, h3, p, button, a, div{
   text-decoration: none;
 }
 body{
-  background: rgb(100,0,123);
-  background: radial-gradient(circle, rgba(100,0,123,1) 0%, rgba(62,20,86,1) 100%);
+  background: rgb(248, 225, 205);
+  background: radial-gradient(circle, rgb(173, 147, 179) 0%, rgb(154, 143, 172) 100%);
   overflow: hidden;
 }
 button{
@@ -46,29 +46,30 @@ button{
   padding: 10px;
   cursor: pointer;
 }
-
 /* header */
 header{
   display: flex;
   padding: 40px;
   align-items: center;
 }
+.title h1{
+  font-size: 40px;
+  position: relative;
+}
 header .title{
   flex-grow: 1;
-  margin-left: 20px;
+  margin-left: 450px;
   font-size: 0.6em;
 }
 header h1{
-  border-bottom: 1px solid rgba(255,255,255,0.2);
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
-header .pizza-svg {
-  width: 80px;
-  overflow: visible;
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linejoin: round;
-  stroke-linecap: round;
+
+
+
+header .right{
+  padding-left: 50 px;
+  padding-right: 50px;
 }
 
 /* lists */
